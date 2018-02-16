@@ -1,0 +1,88 @@
+/* reset of pag*/
+*{margin:0; padding: 0; border:0; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 100%;}
+
+/* pagina de entrada */
+
+/* Menu de apresentação de entrada */
+
+.menuHorizontal{
+    height: 662px;
+    width: 320px;
+    display:block;
+    background:#3a5efb;
+    float: left;
+}
+
+/* CONFIGURAR TAMANHO DA IMAGEM */
+
+.imgPerfil {
+    height: 200px; 
+    width: 200px; 
+    border:1px solid white;
+    border-radius: 200px;
+    margin:30px 10px 0 60px;
+    background: white;
+}
+#imgWelcome{
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 180px;
+    height: 180px!important; 
+    width: 180px!important;
+    background-size:contain;
+
+}
+
+/* texto do conteúdo para paragrafo de apresentação */
+.artgPerfil{
+    color:white;
+    font-size:3.5vh;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* MIDDLE WELCOME */
+
+.middle{
+    margin:0 auto;
+    margin-left: 200px;
+    display: inline-block;
+}
+#apresentacao{
+    font-size: 2.2em;
+    
+    margin-top:150px;
+}
+/* loading utilizando o materalize  */
+.load{
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+/* texto sobre a entrada */
+
+#txtApresentation1{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 1.8em;
+}
+
+#txtApresentation2{
+    margin-left: 40px;
+    font-size: 1.6em;
+}
+
+/* redes Sociais  */
+
+#rSocialToWelcome{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.campSocial{
+    width: 92px;
+    height: 92px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top:90px;
+}

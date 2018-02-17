@@ -86,3 +86,22 @@
     margin-left: 20px;
     margin-top:90px;
 }
+
+/* modal */
+
+.mo{
+    position: absolute;
+    top:0;
+    height: 100%;
+    width:100%;
+    background: rgba(0,0,0,0.5);
+    transition: all ease-in-out 5000ms;
+}
+.mo div{
+    background: white; 
+    height: 300px;
+    width: 500px;
+    border:solid 1px black;
+    margin:0 auto;
+    margin-top: 120px;
+}

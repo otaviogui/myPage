@@ -9,17 +9,16 @@
     height: 662px;
     width: 320px;
     display:block;
-    background:#3a5efb;
+    background: linear-gradient(#0575e6, #021b79);
     float: left;
 }
 
 /* CONFIGURAR TAMANHO DA IMAGEM */
 
 .imgPerfil {
-    height: 200px; 
-    width: 200px; 
-    border:1px solid white;
-    border-radius: 200px;
+    height: 170px; 
+    width: 170px; 
+    border-radius: 170px;
     margin:30px 10px 0 60px;
     background: white;
 }
@@ -27,18 +26,22 @@
     align-items: center;
     margin-left: 10px;
     border-radius: 180px;
-    height: 180px!important; 
-    width: 180px!important;
+    height: 170px!important; 
+    width: 170px!important;
     background-size:contain;
 
 }
 
 /* texto do conteúdo para paragrafo de apresentação */
+#first-artg{
+    margin-top: 100px;
+}
 .artgPerfil{
     color:white;
     font-size:3.5vh;
     margin-top: 10px;
     margin-left: 10px;
+    padding: 3px;
 }
 
 /* MIDDLE WELCOME */
@@ -49,21 +52,21 @@
     display: inline-block;
 }
 #apresentacao{
-    font-size: 2.2em;
-    
-    margin-top:150px;
+    font-size: 2.2em;  
+    margin-top:110px;
+    margin-bottom: 150px;
 }
 /* loading utilizando o materalize  */
 .load{
     margin-left: 250px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 /* texto sobre a entrada */
 
 #txtApresentation1{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 120px;
     font-size: 1.8em;
 }
@@ -71,25 +74,29 @@
 #txtApresentation2{
     margin-left: 40px;
     font-size: 1.6em;
+
 }
 
 /* redes Sociais  */
 
 #rSocialToWelcome{
     display: inline-flex;
-    margin-left: 10px;
 }
 .campSocial{
     width: 92px;
     height: 92px;
     display: inline-flex;
-    margin-left: 20px;
-    margin-top:90px;
+   
+}
+.wel{
+    margin-top:50px;
+    margin-left: 30px;
 }
 
 /* modal */
 
-.mo{
+.mod-cards{
+    display:none;
     position: absolute;
     top:0;
     height: 100%;
@@ -97,11 +104,109 @@
     background: rgba(0,0,0,0.5);
     transition: all ease-in-out 5000ms;
 }
-.mo div{
+.mod-cards div{
     background: white; 
     height: 300px;
     width: 500px;
     border:solid 1px black;
     margin:0 auto;
     margin-top: 120px;
+}
+
+
+/* barra de ajuda */
+#cont-help{
+    margin-left: 1000px;
+    display: inline-flex;
+    margin-top: 5px;
+}
+#help{
+    display: inline-flex;
+    font-size: 1em;
+    font-style: unset; 
+    height: 30px;
+    background-color: #ccc;
+    width: 100%;
+}
+#help label{
+    margin-left: 10px;
+}
+
+#selectLanguagens{
+    border-radius: 2px;
+    width:120px;
+}
+/* topo do menu */
+#top{
+    height: 160px;
+    width:100%;
+    background: linear-gradient(#0575e6, #021b79);
+    #6190e8, #a7bfe8
+}
+#about{
+    padding: 10 10 10 10;    
+}
+.size-ini{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    background-color: white;
+}
+.ini{
+    font-size: 1.1em;
+}
+#cont-artg{
+    margin-left: 200px;
+    margin-top: -115px;
+}
+.position-top{
+    margin-left: 800px;
+    margin-top: -80px;
+}
+.position-top p{
+    color:white;
+    font-weight: bold;
+}
+/* aps = pagina de apresentacao */
+
+#aps{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+/* main  */
+
+.main-aps{
+    margin:0 auto;
+    width: 989px;
+    border:solid 1px red;
+}
+/* color #383838 cinza claro, color para font de titulos */
+.main-aps h1{
+    font-size: 2.3em;
+    color:#383838;
+    margin-top:30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+/* card do conteúdo  */
+.cont{
+    display: flex;
+}
+.cont-card{
+    height: 400px;
+    width: 240px;
+    border:solid 1px blue;
+    margin: 0 auto;
+}
+
+#footer-perf{
+    background: linear-gradient(#0575e6, #021b79);
+    
 }

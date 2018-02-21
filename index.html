@@ -9,44 +9,57 @@
     <title>Seja Bem Vindo</title>
 </head>
 <body>
-    <div class="main">
-        <section class="menuHorizontal" alt="Perfil">
-            <div class="imgPerfil" ><img src="#" id="imgWelcome"/></div>
-            <p class="artgPerfil" id="first-artg" alt="Olá me chamo Otávio Guilherme">OTÁVIO GUILHERME</p>
-            <p class="artgPerfil" alt="Sou um desenvolvedor Web">DESENVOLVEDOR WEB</p>
-            <p class="artgPerfil" alt="SOu um estudante da FATEC">FATECANO</p>
-        </section>
-        <section class="middle" alt="Conteúdo de apresentação no meio da pagina">
-            <h1 id="apresentacao" alt="Olá seja bem vindo ao meu perfil"> OLÁ, SEJA BEM VINDO AO MEU PERFIL</h1>
-            <div class="load">
-                <div class="preloader-wrapper big active">
-                    <div class="spinner-layer spinner-blue-only">
-                      <div class="circle-clipper left">
-                        <div class="circle"></div>
-                      </div><div class="gap-patch">
-                        <div class="circle"></div>
-                      </div><div class="circle-clipper right">
-                        <div class="circle"></div>
-                      </div>
+    <!-- s - small(smartphone)  m medio l(tablet) larg (desk) -->
+    <div class="row">
+        <section class="menuHorizontal col s12 m12 l3 blue" alt="Perfil">
+                    <div class="imgPerfil col l8" ><img src="#" id="imgWelcome"/></div>
+                    <div class="artg col s8 offset-s3 m8 offser-m3">
+                        <p class="artgPerfil col s12 m12 l12 " id="first-artg" alt="Olá me chamo Otávio Guilherme">OTÁVIO GUILHERME</p>
+                        <p class="artgPerfil col s12 m12 l12" alt="Sou um desenvolvedor Web">DESENVOLVEDOR WEB</p>
+                        <p class="artgPerfil col s12 m12 l12" alt="SOu um estudante da FATEC">FATECANO</p>
                     </div>
-                  </div>
-            </div>
-            <p id="txtApresentation1" alt="Antes de ser carregado o site por completo, conheça também minhas redes sociais e meus tarabalhos realizados">
-                CONHEÇA TAMBÉM MINHAS</p>
-            <p id="txtApresentation2"> REDES SOCIAIS E TRABALHOS REALIZADOS</p>
-            <div id="rSocialToWelcome " class="rSociais" alt="Redes Sociais e Contato">
-                <p class="campSocial wel" alt="Meu gitHub"><a href="https://github.com/otaviogui" target="_blank"/><img src="https://png.icons8.com/nolan/50/000000/github.png" alt="icon para o perfil do meu gitHub"/></a></p>
-                <p class="campSocial wel" alt="Meu Linkedin"><a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="icon para o perfil do Linkedin"/></a></p>
-                <p class="campSocial wel" alt="Meu Whatsapp"><a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/color/50/000000/whatsapp.png" alt="icon para o whatsapp "/></a></p>
-                <p class="campSocial wel" alt="Meu Facebook"><a href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png" alt="icon para o facebook"/></a></p>
-                <p class="campSocial wel" alt="Meu E-mail"><a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/gmail.png" alt="icon para o E-mail"/></a></p>
-            </div>
         </section>
+        <div class="container">
+            
+            <section class="middle col s12 m12 l7 offset-l2" alt="Conteúdo de apresentação no meio da pagina">
+                <h1 id="apresentacao" alt="Olá seja bem vindo ao meu perfil"> OLÁ, SEJA BEM VINDO AO MEU PERFIL</h1>
+                <div class="row">
+                    <div class="load col s3 offset-s4 m3 offset-m5">
+                        <div class="preloader-wrapper big active">
+                            <div class="spinner-layer spinner-blue-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div><div class="gap-patch">
+                                <div class="circle"></div>
+                            </div><div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row">
+                    <p  id="txtApresentation1" alt="Antes de ser carregado o site por completo, conheça também minhas redes sociais e meus tarabalhos realizados">
+                        CONHEÇA TAMBÉM MINHAS</p>
+                    <p  id="txtApresentation2"> REDES SOCIAIS E TRABALHOS REALIZADOS</p>
+                </div>
+               <div class="row">
+                    <div id="rSocialToWelcome col s12 m12" class="rSociais" alt="Redes Sociais e Contato">
+                        <p class="campSocial wel col s2 m2 offset-s1 offset-m1" alt="Meu gitHub"><a href="https://github.com/otaviogui" target="_blank"/><img src="https://png.icons8.com/nolan/50/000000/github.png" alt="icon para o perfil do meu gitHub"/></a></p>
+                        <p class="campSocial wel col s2 m2" alt="Meu Linkedin"><a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="icon para o perfil do Linkedin"/></a></p>
+                        <p class="campSocial wel col s2 m2" alt="Meu Whatsapp"><a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/color/50/000000/whatsapp.png" alt="icon para o whatsapp "/></a></p>
+                        <p class="campSocial wel col s2 m2" alt="Meu Facebook"><a href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png" alt="icon para o facebook"/></a></p>
+                        <p class="campSocial wel col s2 m2" alt="Meu E-mail"><a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/gmail.png" alt="icon para o E-mail"/></a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
-    <script type="text/javascript">
+
+    <!-- <script type="text/javascript">
         setTimeout(()=>{
             location.href= 'view/apresentatio.html'
         }, 5000)
-    </script> 
+    </script>  -->
 </body>
 </html>

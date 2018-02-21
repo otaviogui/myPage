@@ -6,16 +6,13 @@
 /* Menu de apresentação de entrada */
 @media (min-width:989px){
 .menuHorizontal{
-    height: 662px;
-    width: 320px;
-   
+    height: 530px;
 }
 
 /* CONFIGURAR TAMANHO DA IMAGEM */
 
 .imgPerfil {
-    height: 170px; 
-    width: 170px; 
+    height: 180px;  
     border-radius: 170px;
     margin:30px 10px 0 60px;
     background: white;
@@ -24,8 +21,6 @@
     align-items: center;
     margin-left: 10px;
     border-radius: 180px;
-    height: 170px!important; 
-    width: 170px!important;
     background-size:contain;
 
 }
@@ -51,8 +46,9 @@
 }
 #apresentacao{
     font-size: 2.2em;  
-    margin-top:110px;
-    margin-bottom: 150px;
+    margin-top:70px;
+    margin-bottom: 90px;
+    text-align: center;
 }
 /* loading utilizando o materalize  */
 .load{
@@ -64,14 +60,13 @@
 /* texto sobre a entrada */
 
 #txtApresentation1{
-    margin-top: 50px;
     margin-left: 120px;
-    font-size: 1.8em;
+    font-size: 3.2vh;
 }
 
 #txtApresentation2{
     margin-left: 40px;
-    font-size: 1.6em;
+    font-size: 3.2vh;
 
 }
 
@@ -87,7 +82,7 @@
    
 }
 .wel{
-    margin-top:50px;
+    margin-top:20px;
     margin-left: 30px;
 }
 

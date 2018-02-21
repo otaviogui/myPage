@@ -13,7 +13,7 @@
 
 .imgPerfil {
     height: 200px;  
-    border-radius: 170px;
+    border-radius: 180px;
     margin:30px 10px 0 60px;
     background: white;
 }
@@ -82,7 +82,7 @@
    
 }
 .wel{
-    margin-top:20px;
+    margin-top:10px;
     margin-left: 30px;
 }
 
@@ -133,8 +133,7 @@
 #top{
     height: 160px;
     width:100%;
-    background: linear-gradient(#0575e6, #021b79);
-    #6190e8, 
+    background: linear-gradient(#0575e6, #021b79); 
 }
 #about{
     padding: 10 10 10 10;    
@@ -215,8 +214,7 @@
     
 }
 #footer-perf{
-    background: linear-gradient(#0575e6, #021b79);
-    
+    background: linear-gradient(#0575e6, #021b79);   
 }
 /* barra de rolagem estilizada */
 ::-webkit-scrollbar{

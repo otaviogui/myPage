@@ -4,13 +4,11 @@
 /* pagina de entrada */
 
 /* Menu de apresentação de entrada */
-
+@media (min-width:989px){
 .menuHorizontal{
     height: 662px;
     width: 320px;
-    display:block;
-    background: linear-gradient(#0575e6, #021b79);
-    float: left;
+   
 }
 
 /* CONFIGURAR TAMANHO DA IMAGEM */
@@ -141,7 +139,7 @@
     height: 160px;
     width:100%;
     background: linear-gradient(#0575e6, #021b79);
-    #6190e8, #a7bfe8
+    #6190e8, 
 }
 #about{
     padding: 10 10 10 10;    
@@ -206,7 +204,72 @@
     margin: 0 auto;
 }
 
+/* img conteudo dos cards com animação */
+.img-cont{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    border:solid 1px red;
+    margin:0 auto;
+    margin-bottom: 60px;
+}
+.img-cont>img{
+    width: 110px!important;
+    height: 110px!important;
+    border-radius:110px;
+    
+}
 #footer-perf{
     background: linear-gradient(#0575e6, #021b79);
     
+}
+/* barra de rolagem estilizada */
+::-webkit-scrollbar{
+    width: 5px;
+    -webkit-border-radius:10px;
+}
+::-webkit-scrollbar-track-piece{
+    background-color: #ccc;
+    -webkit-border-radius:5px;
+}
+::-webkit-scrollbar-thumb:vertical{
+    background-color: #0575e6;
+}
+
+}
+@media(min-width:360px) and (max-width:420px) {
+   .menuHorizontal{height: 120px;} 
+   .imgPerfil{padding: 10px;width: 90px;height: 90px; border-radius: 90px;
+background-color: aliceblue;margin-top: 15px;}
+#imgWelcome{width: 89px; height: 89px; border-radius:89px;margin-left: -10px;}
+.artg{margin-top:-80px;}
+    .artgPerfil{margin-top: 2px; color:white}
+    #apresentacao{font-size: 5.2vh; text-align: center; 
+    margin-bottom: 80px;}
+    .load{margin-bottom: 80px;}
+    #txtApresentation1{margin-left: 75px;}
+    #txtApresentation2{margin-left: 15px;}
+    #rSocialToWelcome{
+        display: inline-flex;
+    }
+    
+}
+@media(min-width:430px) and (max-width:900px){
+    .menuHorizontal{height: 300px;}
+    .imgPerfil{height: 200px; width:200px; border-radius:200px;
+         background-color: aliceblue; margin-top: 50px; }
+    #imgWelcome{height: 200px; width:200px; border-radius:200px;
+        border:solid 1px red; margin-left: -10px;
+    }
+        .artg{margin-top: 80px;}
+    .artgPerfil{color:whitesmoke; font-size: 3.3vh; }
+    #apresentacao{
+        text-align: center;
+        font-size:5.3vh;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }   
+    .load{margin-bottom: 100px;}
+    #txtApresentation1{font-size:3vh; margin-left:100px;}
+    #txtApresentation2{font-size: 2.6vh;margin-left: 20px;}
 }

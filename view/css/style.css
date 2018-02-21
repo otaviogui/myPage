@@ -6,7 +6,7 @@
 /* Menu de apresentação de entrada */
 @media (min-width:989px){
 .menuHorizontal{
-    height: 530px;
+    height: 620px;
 }
 
 /* CONFIGURAR TAMANHO DA IMAGEM */
@@ -46,7 +46,7 @@
 }
 #apresentacao{
     font-size: 2.2em;  
-    margin-top:70px;
+    margin-top:50px;
     margin-bottom: 90px;
     text-align: center;
 }

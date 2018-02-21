@@ -6,13 +6,13 @@
 /* Menu de apresentação de entrada */
 @media (min-width:989px){
 .menuHorizontal{
-    height: 620px;
+    height: 662px;
 }
 
 /* CONFIGURAR TAMANHO DA IMAGEM */
 
 .imgPerfil {
-    height: 180px;  
+    height: 200px;  
     border-radius: 170px;
     margin:30px 10px 0 60px;
     background: white;

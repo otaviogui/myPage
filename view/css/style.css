@@ -3,37 +3,33 @@
 
 /* pagina de entrada */
 
-/* Menu de apresentação de entrada */
-@media (min-width:989px){
+@media (min-width:989px)/* and (max-width: 1200px) */{
 .menuHorizontal{
-    height: 662px;
+    height: 100vh;
 }
-
 /* CONFIGURAR TAMANHO DA IMAGEM */
-
 .imgPerfil {
-    height: 200px;  
+    height: 30vh;  
     border-radius: 180px;
     margin:30px 10px 0 60px;
     background: white;
 }
 #imgWelcome{
-    align-items: center;
-    margin-left: 10px;
+    height: 30vh;
+    width: 15vw;
+    margin-left: -0.9vw; 
+    border:solid 1px red;
     border-radius: 180px;
-    background-size:contain;
-
 }
-
 /* texto do conteúdo para paragrafo de apresentação */
 #first-artg{
-    margin-top: 100px;
+    margin-top: 15vh;
 }
 .artgPerfil{
     color:white;
     font-size:3.5vh;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 2vh;
+    margin-left: 1.5vw;
     padding: 3px;
 }
 
@@ -41,53 +37,40 @@
 
 .middle{
     margin:0 auto;
-    margin-left: 200px;
+    margin-left: 30vw;
     display: inline-block;
 }
 #apresentacao{
     font-size: 2.2em;  
-    margin-top:50px;
-    margin-bottom: 90px;
+    margin-top:7vh;
+    margin-bottom: 15vh;
     text-align: center;
 }
 /* loading utilizando o materalize  */
 .load{
-    margin-left: 250px;
+    margin-left: 35vw;
     margin-top: 20px;
     margin-bottom: 70px;
 }
-
 /* texto sobre a entrada */
-
 #txtApresentation1{
-    margin-left: 120px;
+    margin-left: 10vw;
     font-size: 3.2vh;
 }
-
 #txtApresentation2{
-    margin-left: 40px;
+    margin-left: 2.6vw;
     font-size: 3.2vh;
-
 }
-
 /* redes Sociais  */
-
-#rSocialToWelcome{
-    display: inline-flex;
-}
 .campSocial{
-    width: 92px;
-    height: 92px;
+    width: 10vh;
+    height: 5vw;
     display: inline-flex;
-   
 }
 .wel{
-    margin-top:10px;
-    margin-left: 30px;
+    margin-left: 5vw;
 }
-
 /* modal */
-
 .mod-cards{
     position: absolute;
     top:0;
@@ -230,85 +213,83 @@
 }
 
 }
-@media(min-width:360px) and (max-width:420px) {
-   .menuHorizontal{height: 120px;} 
+@media(min-width:320px) and (max-width:425px) {
+   .menuHorizontal{height: 20vh;} 
    .imgPerfil{padding: 10px;width: 90px;height: 90px; border-radius: 90px;
-background-color: aliceblue;margin-top: 15px;}
-#imgWelcome{width: 89px; height: 89px; border-radius:89px;margin-left: -10px;}
+background-color: aliceblue;margin-top: 2vh;}
+#imgWelcome{width: 27vw; height: 15vh; border-radius:89px;margin-left:-7px; margin-top:2px; border:solid 1px red;}
 .artg{margin-top:-80px;}
     .artgPerfil{margin-top: 2px; color:white}
     .ini{text-align: center;}
-    #apresentacao{font-size: 5.2vh; text-align: center; 
-    margin-bottom: 80px;}
-    .load{margin-bottom: 80px;}
-    #txtApresentation1{margin-left: 75px;}
-    #txtApresentation2{margin-left: 15px;}
-    #rSocialToWelcome{
-        display: inline-flex;
-    }
+    #apresentacao{font-size: 4.6vh; text-align: center; 
+    margin-bottom: 10vh;}
+    .load{margin-bottom: 6vh;}
+    #txtApresentation1{margin-left: 15vw;}
+    #txtApresentation2{margin-left: 0.2vw;text-align: center;}
     .main-aps h1{
         -webkit-animation-duration: 1s;
         -webkit-animation-delay: 1.2s;
     }
-    .size-ini{border:solid 1px red; width: 120px;height: 120px; border-radius:120px; margin-left: 100px;}
+    .size-ini{border:solid 1px red; width:45vw;height: 25vh; border-radius:120px; align-content: }
     .cont-artg{
-        margin-left: 100px;
+        margin-left: 30vw;
     }
+    #help{width: 121vw;}
+    #top{width: 121vw;height: 50vh;}
     .aps{align-items: center;}
     .main-aps h1{
         font-size: 3vh;
         font-weight: bold;
         text-align: center;
     }
-    .img-cont{width: 100px; 
-        height: 100px;
-         border-radius: 100px; 
+    .img-cont{width: 30vw; 
+        height: 15vh;
         margin-left: 120px;
     margin-top: 10px;}
         .img-cont p {
             font-size:2.8vh;
             font-weight: bold;
             margin-left: -20px;
-            margin-top: 15px;
+            margin-top: 5vw;
         }
-    .text-cont{margin-top: 80px;
+    .text-cont{margin-top: 20vw;
         text-align: center;
         font-weight: 650;
     }
-    .btn{margin-left: 70px;}
+    .btn{margin-left: 20vw;}
     .position-top{
         display: none;
     }
-    .cont-card{width: 100%; height: 320px;
+    .cont-card{width: 100vw; height: 50vh;
         border-radius: 10px;
-        margin-top:10px;
+        margin-top:2vh;
     }  
+    .ap{height: 30vh;width: 100vw;}
 }
-@media(min-width:430px) and (max-width:900px){
-    .menuHorizontal{height: 300px;}
-    .imgPerfil{height: 200px; width:200px; border-radius:200px;
-         background-color: aliceblue; margin-top: 50px; }
-    #imgWelcome{height: 200px; width:200px; border-radius:200px;
+@media(min-width:425px) and (max-width:700px){
+    .menuHorizontal{height: 45vh; }
+    .imgPerfil{height: 25vh; width:35vw; border-radius:200px;
+         background-color: aliceblue; margin-top: 5vh; }
+    #imgWelcome{height: 25vh; width:35vw; border-radius:200px;
         border:solid 1px red; margin-left: -10px;
     }
-        .artg{margin-top: 80px;}
-    .artgPerfil{color:whitesmoke; font-size: 3.3vh; }
+.m{
+   min-width: 425px;
+max-width: 700px;}
+    .artgPerfil{color:whitesmoke; font-size: 2.3vh; margin-left: 100px;mar}
     #apresentacao{
         text-align: center;
         font-size:5.3vh;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 30vh;
+        margin-bottom: 15vh;
     }   
-    .load{margin-bottom: 100px;}
+    .load{margin-bottom:15vh;}
     #txtApresentation1{font-size:3vh; margin-left:100px;}
     #txtApresentation2{font-size: 2.6vh;margin-left: 20px;}
-    .rSociais{display: inline-flex;}
-    #footer-perf{margin-left:100px;}
-    .ap{height: 500px;}
+    
 }
 #apresentacao {
-    -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 0s;
+   
   }
   .load{
     -webkit-animation-duration: 3s;

@@ -284,3 +284,23 @@ background-color: aliceblue;margin-top: 15px;}
     #txtApresentation1{font-size:3vh; margin-left:100px;}
     #txtApresentation2{font-size: 2.6vh;margin-left: 20px;}
 }
+#apresentacao {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0s;
+  }
+  .load{
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+  }
+  #txtApresentation1{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  #txtApresentation2{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+  }
+  .rSociais{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+  }

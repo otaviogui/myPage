@@ -5,42 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css" />
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
     <title></title>
 </head>
 <body>
-    <div id="help">
-        <div id="cont-help">
-            <p>A+</p>
-            <label>LINGUAGEM</label>
-            <select id="selectLanguagens">
-                <option value=""> PORTUGUES <img src=""/></option>
-                <option>INGLÊS <img src=""/></option>
-            </select>
+        <div id="help" class="grey">
+            <div id="cont-help">
+                <p>A+</p>
+                <label>LINGUAGEM</label>
+                <select id="selectLanguagens">
+                    <option value=""> PORTUGUES <img src=""/></option>
+                    <option>INGLÊS <img src=""/></option>
+                </select>
+            </div>
         </div>
-    
-    </div>
-    <div id="top">
-        <div id="about">
-                <img src="#" id="" class="size-ini"/>
+<div class="row">
+    <div id="top" class="col s12 m12 l12 blue">
+        <div id="about" class="col s12">
+                <div class="imgWelcome"><img src="#" id="" class="size-ini"/></div>
                 <div id="cont-artg">
-                    <p class="artgPerfil ini">OTÁVIO GUILHERME</p>
-                    <p class="artgPerfil ini">DESENVOLVEDOR WEB</p>
-                    <p class="artgPerfil ini">FATECANO / SISTEMAS PARA INTERNET</p>
+                    <p class="artgPerfil ini col s12">OTÁVIO GUILHERME</p>
+                    <p class="artgPerfil ini col s12">DESENVOLVEDOR WEB</p>
+                    <p class="artgPerfil ini col s12">FATECANO / SISTEMAS PARA INTERNET</p>
                 </div>
         </div>
-            <div class="rSociais position-top">
-                <p id="aps">ENTRE EM CONTATO</p>
-                <p class="campSocial aps" alt="Meu gitHub"><a href="https://github.com/otaviogui" target="_blank"/><img src="https://png.icons8.com/ios/50/000000/github.png" alt="icon para o perfil do meu gitHub"/></a></p>
-                <p class="campSocial aps" alt="Meu Linkedin"><a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="icon para o perfil do Linkedin"/></a></p>
-                <p class="campSocial aps" alt="Meu Whatsapp"><a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/color/50/000000/whatsapp.png" alt="icon para o whatsapp "/></a></p>
-                <p class="campSocial aps" alt="Meu Facebook"><a href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png" alt="icon para o facebook"/></a></p>
-                <p class="campSocial aps" alt="Meu E-mail"><a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/gmail.png" alt="icon para o E-mail"/></a></p>
+            <div class="rSociais position-top ">
+                <p id="aps" class="col s7">ENTRE EM CONTATO</p><br/>
+                <p class="campSocial aps col s2" alt="Meu gitHub"><a href="https://github.com/otaviogui" target="_blank"/><img src="https://png.icons8.com/ios/50/000000/github.png" alt="icon para o perfil do meu gitHub"/></a></p>
+                <p class="campSocial aps col s2" alt="Meu Linkedin"><a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="icon para o perfil do Linkedin"/></a></p>
+                <p class="campSocial aps col s2" alt="Meu Whatsapp"><a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/color/50/000000/whatsapp.png" alt="icon para o whatsapp "/></a></p>
+                <p class="campSocial aps col s2" alt="Meu Facebook"><a href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png" alt="icon para o facebook"/></a></p>
+                <p class="campSocial aps col s2" alt="Meu E-mail"><a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/gmail.png" alt="icon para o E-mail"/></a></p>
             </div>
     </div>
-    <div class="main-aps">
+</div>
+    <div class="main-aps container">
         <h1>   UM POUCO MAIS SOBRE MINHAS HABILIDADES E CONHECIMENTO </h1>
-        <div class="cont" alt="conteudo informando as habilidades">
+        <div class="cont "  alt="conteudo informando as habilidades">
                 <div class="cont-card" alt="card de conteudo com um drop down">
                     <div class="img-cont" alt="img padrao sobre seu contéudo"><img src="" alt="icon da suas habilidades"/></div>
                         <article class="text-cont" alt="texto sobre as habilidades desenvolvida no seu dia a dia abreviada">
@@ -87,7 +89,7 @@
                             </div>    
                 </div>
         </div>
-        <form action="" class="formChoiceService" method="post">
+        <form action=""data-aos="flip-left" class="formChoiceService" method="post">
                 
                 <div style="border:solid 1px black; height:45px;">
                     <select style="border:solid 1px black; height:15px;" name="" class="input-field "id="selectOfService">
@@ -128,6 +130,9 @@
 
                 &copy;OTÁVIO GUILHERME FERREIRA DOS SANTOS
     </footer>
-    
+    <script src="bower_components/aos/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init()
+    </script>
 </body>
 </html>

@@ -1,64 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="view/css/style.css" rel="stylesheet"/>
-    <link href="view/css/animate.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <title>Seja Bem Vindo</title>
-</head>
-<body>
-    <!-- s - small(smartphone)  m medio l(tablet) larg (desk) -->
-    <div class="row">
-        <section class="menuHorizontal col s12 m12 l3 blue animated slideInLeft" alt="Perfil">
-                    <div class="imgPerfil col l8" ><img src="#" id="imgWelcome"/></div>
-                    <div class="artg col s8 m8 l12 offset-s3  offser-m1">
-                        <p class="artgPerfil col s12 m12 l12 " id="first-artg" alt="Olá me chamo Otávio Guilherme">OTÁVIO GUILHERME</p>
-                        <p class="artgPerfil col s12 m12 l12" alt="Sou um desenvolvedor Web">DESENVOLVEDOR WEB</p>
-                        <p class="artgPerfil col s12 m12 l12" alt="SOu um estudante da FATEC">FATECANO</p>
-                    </div>
-        </section>
-        <div class="container ">
-            
-            <section class="middle col s12 m12 l7 offset-l2" alt="Conteúdo de apresentação no meio da pagina">
-                <h1 id="apresentacao" class="animated slideInLeft" alt="Olá seja bem vindo ao meu perfil" > OLÁ, SEJA BEM VINDO AO MEU PERFIL</h1>
-                <div class="row">
-                    <div class="load col s3 offset-s4 m3 offset-m5 animated slideInLeft">
-                        <div class="preloader-wrapper big active">
-                            <div class="spinner-layer spinner-blue-only">
-                            <div class="circle-clipper left">
-                                <div class="circle"></div>
-                            </div><div class="gap-patch">
-                                <div class="circle"></div>
-                            </div><div class="circle-clipper right">
-                                <div class="circle"></div>
-                            </div>
-                            </div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="painel" class="col-sm-12 col-md-4 col-lg-3">
+                   <div id="elementsIni">
+                        <img class="imgApresentation"  src="https://lh3.googleusercontent.com/VJlLDUFikaEl_NqbvR70Q7r19y7Y7huISWinH9XbeJwBSCXf_-mTruobfGqQrDODymL4OfOj_Mvtd85X=w176-h176-n-o" />
+                        
+                        <div id="artg">
+                            <h1>Otávio Guilherme</h1>
+                            <p>Desenvolvedor Web</p>
+                            <p>FATECANO</p>
                         </div>
                     </div>
                 </div> 
-                <div class="row">
-                    <p  id="txtApresentation1"  class="animated slideInLeft" alt="Antes de ser carregado o site por completo, conheça também minhas redes sociais e meus tarabalhos realizados">
-                        CONHEÇA TAMBÉM MINHAS</p>
-                    <p  id="txtApresentation2"  class="animated slideInLeft"> REDES SOCIAIS E TRABALHOS REALIZADOS</p>
-                </div>
-               <div class="row">
-                    <div id="rSocialToWelcome col s12 m12 l12 " class="rSociais animated slideInLeft" alt="Redes Sociais e Contato">
-                        <p class="campSocial wel col s2 m2 l2offset-s1 offset-m1" alt="Meu gitHub"><a href="https://github.com/otaviogui" target="_blank"/><img src="https://png.icons8.com/nolan/50/000000/github.png" alt="icon para o perfil do meu gitHub"/></a></p>
-                        <p class="campSocial wel col s2 m2 l2" alt="Meu Linkedin"><a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/color/50/000000/linkedin.png" alt="icon para o perfil do Linkedin"/></a></p>
-                        <p class="campSocial wel col s2 m2 l2" alt="Meu Whatsapp"><a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/color/50/000000/whatsapp.png" alt="icon para o whatsapp "/></a></p>
-                        <p class="campSocial wel col s2 m2 l2" alt="Meu Facebook"><a href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png" alt="icon para o facebook"/></a></p>
-                        <p class="campSocial wel col s2 m2 l2" alt="Meu E-mail"><a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/color/50/000000/gmail.png" alt="icon para o E-mail"/></a></p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
+               
+                <main id="content" class="col-sm-12 col-md-8 col-lg-9">
+                    <h1>SEJA BEM VINDO AO MEU PERFIL</h1>
 
-        setTimeout(()=>{
-            location.href= 'view/apresentatio.html'
-        }, 4000)
-</body>
+                    <div class="spinner">
+                        <div class="rect1"></div>
+                        <div class="rect2"></div>
+                        <div class="rect3"></div>
+                        <div class="rect4"></div>
+                        <div class="rect5"></div>
+                        <h6>Aguarde</h6>
+                    </div>
+                    <article>
+                        Conheça também minhas redes sociais e trabalhos realizados
+                    </article>   
+
+                    <div id="redSocial" class="col-sm-10">
+                        <a href="https://github.com/otaviogui" target="_blank"><img src="https://png.icons8.com/wired/50/000000/github.png"></a>
+                        <a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/ios/50/000000/linkedin-circled.png"/></a>
+                        <a  href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/cotton/50/000000/facebook-circled.png"/></a>
+                        <a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/google-plus-circled.png"/></a>
+                        <a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/ios/50/000000/whatsapp.png"/></a>
+                    </div>
+
+                </main>     
+            
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script>
+              setTimeout( () => {
+                location.href="principal.html"
+            }, 8000) 
+        </script>
+    </body>
 </html>

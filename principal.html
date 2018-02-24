@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="painelPrincipal"  class="col-sm-12 col-md-12 col-lg-12">
+                <img src="https://lh3.googleusercontent.com/VJlLDUFikaEl_NqbvR70Q7r19y7Y7huISWinH9XbeJwBSCXf_-mTruobfGqQrDODymL4OfOj_Mvtd85X=w176-h176-n-o" id="imgPrincipal"/>
+                <h1>Otávio Guilherme</h1>
+                <p>Desenvolvedor Web</p>
+                <p>Sistemas Para Internet</p>
+                <p>FATECANO</p>
+            </div>
+            <main id="contPrincipal" class="col-sm-12 col-md-12">
+                <h1>UM POUCO MAIS SOBRE MINHAS HABILIDADES E CONHECIMENTOS</h1>
+                <div class="cont-card col-sm-12">
+                    <img class="img-card" src="https://png.icons8.com/ios/90/000000/trekking-filled.png"/>
+                    <h6>Habilidades</h6>
+                    <article>
+                        Habilidades desenvolvida em sala de aula e com trabalhos
+                        de freelancer, que tive ao decorrer da minha carreira...
+                    </article>
+                    <input type="button" class="btn" value="Continue Lendo">
+                </div>
+                <div class="cont-card col-sm-12">
+                        <img class="img-card" src="https://png.icons8.com/ios/90/000000/code-filled.png"/>
+                        <h6>Trabalhos</h6>
+                        <article>
+                            Um pouco mais sobre os meus trabalhos desenvolvido, desde
+                            um design até uma aplicação para Web
+                        </article>
+                        <input type="button" class="btn"  value="Continue Lendo" >
+                           
+                </div>
+                <div class="cont-card col-sm-12">
+                        <img class="img-card" src="https://png.icons8.com/ios/90/000000/trophy-filled.png"/>
+                        <h6>Conquista</h6>
+                        <article>
+                            Conquistas tanto pessoais como também profissionais, com 
+                            certificações e resumo das minhas trajetórias...
+                        </article>
+                        <input type="button" class="btn" value="Continue Lendo">
+                </div>
+                <form class="col-sm-12" id="form-send-work">
+                   <div class="form-group">
+                        <select class="form-control">
+                            <option value="" >TIPO DO SERVIÇO</option>
+                            <option value="" >DESIGN WEB</option>
+                            <option value="">DESIGN DE LOGO</option>
+                            <option value="">CRIAÇÃO DE BANNER</option>
+                            <option value="">CRIAÇÃO DE POST</option>
+                            <option value="">SISTEMA DE GERENCIAMENTO</option>
+                            <option value="">MARKETING DIGITAL</option>
+                            <option value="">MODELAGEM DE BDA</option>
+                            <option value="">LEVANTAMENTO DE REQUISITOS</option>
+                        </select>
+                   </div>
+                   <div class="form-group">
+                        <label for="nome">Nome*</label>
+                        <input type="text" id="nome" class="form-control" placeholder="Escreva seu nome"/>
+                        <label for="email">E-mail*</label>
+                        <input type="text" id="email" class="form-control" placeholder="Escreva seu email"/>
+                        <label for="telefone">Telefone*</label>
+                        <input type="text" id="telefone" class="form-control" placeholder="Ex: (xx)xxxxx-xxxx">
+                        <label for="descricao">Descrição*</label>
+                        <textarea class="form-control" id="descricao" placeholder="Descreva o seu pedido com detalhes"rows="3"></textarea>
+                    </div>
+                        <input type="button" class="btn" value="Enviar">
+                        <input type="reset" class="btn" id="btn-reset" value="Limpar">
+                </form>
+                <footer class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div id="redSocialBottom">
+                        <p>Entre em contato</p>
+                        <a href="https://github.com/otaviogui" target="_blank"><img src="https://png.icons8.com/wired/50/000000/github.png"></a>
+                        <a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/ios/50/000000/linkedin-circled.png"/></a>
+                        <a  href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/facebook-circled.png"/></a>                        <a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/google-plus-circled.png"/></a>
+                        <a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/ios/50/000000/whatsapp.png"/></a>
+                    </div>
+                </footer>
+            </main>
+            
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script>
+        </script>
+</body>
+</html>

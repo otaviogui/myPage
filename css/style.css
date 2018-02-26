@@ -52,11 +52,12 @@ a{text-decoration: none;}
 #redSocial{
     margin: auto;
     display: block;
-    max-width:300px;
+    max-width:1500px;
 }
 
 
 /* Pagina principal */
+
 
 #painelPrincipal{
     background-color: #3F4A54;
@@ -84,7 +85,6 @@ a{text-decoration: none;}
     line-height: 20px;
 }
 #contPrincipal{
-    height: 70vh;
     padding:15px;
 }
 #contPrincipal h1{

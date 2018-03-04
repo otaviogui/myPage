@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Web e estudante da FATEC Taquaritinga do curso Sistemas para internet, Analista de perfomace e estrategista para marketing digital, Desenvolvedor de layout e identidades visual para empresas"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Página Principal - Otávio Guilherme</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -27,7 +28,40 @@
                         Habilidades desenvolvida em sala de aula e com trabalhos
                         de freelancer, que tive ao decorrer da minha carreira...
                     </article>
-                    <input type="button" class="btn" value="Continue Lendo">
+                    <input type="button" class="btn" value="Continue Lendo" data-toggle="modal" data-target="#exampleModal1 ">
+                     <!-- Modal -->
+                     <div class="modal fade col-sm-12" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel1">Escolha uma Habilidade</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                                            <select class="form-control" id="opt-conquista" onchange="choiseHabilidade">
+                                                <option value="Escolha">Escolha uma habilidade</option>
+                                                <option value="Objetivo" >Objetividade</option>
+                                                <option value="liderança" >Liderança</option>
+                                                <option value="Comunicação">Comunicação</option>
+                                                <option value="Proativo">Proativo</option>
+                                                <option value="Bonito">Bonito</option>
+                                                <option value="Dissertativo">Dissertativo</option>
+                                                <option value="Design">Design</option>
+                                                <option value="Densenvolvedor Web">Desenvolvedor Web</option>
+                                                <option value="Marketing Digital">Marketing Digital</option>
+                                            </select>
+                                    </div>
+                                    <div class="modal-body">
+                                            <p id="demo">Escolha uma das minhas habilidades, para saber um pouco mais sobre minha pessoa e como eu trabalho no meu dia a dia as utilizando.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                     </div>
                 </div>
                 <div class="cont-card col-sm-12">
                         <img class="img-card" src="https://png.icons8.com/ios/90/000000/code-filled.png"/>
@@ -36,8 +70,38 @@
                             Um pouco mais sobre os meus trabalhos desenvolvido, desde
                             um design até uma aplicação para Web
                         </article>
-                        <input type="button" class="btn"  value="Continue Lendo" >
-                           
+                        <input type="button" class="btn" id="btn-2" value="Continue Lendo"
+                        data-toggle="modal" data-target="#exampleModal2">
+                         <!-- Modal -->
+                        <div class="modal fade col-sm-12" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel2">Escolha uma Trabalho </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                                                    <select class="form-control" id="opt-trabalho" onchange="choiseTrabalho()">
+                                                        <option value="Escolha">Escolha</option>
+                                                        <option value="Logo MadeirART" >Logo MadeirART</option>
+                                                        <option value="PeDeMoça" >PéDeMoça - Marketing Digital</option>
+                                                        <option value="Banners">Banners e conteúdo para Facebook</option>
+                                                        <option value="Layout Web">Layout Web</option>
+                                                        <option value="Github">Meus Codigos</option>
+                                                    </select>
+                                            </div>
+                                            <div class="modal-body">
+                                                    <p id="demo">Escolha um trabalho desejado, assim a baixo aparecerá os meus trabalhos e links para os arquivos de visualização do case</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
                 </div>
                 <div class="cont-card col-sm-12">
                         <img class="img-card" src="https://png.icons8.com/ios/90/000000/trophy-filled.png"/>
@@ -46,56 +110,119 @@
                             Conquistas tanto pessoais como também profissionais, com 
                             certificações e resumo das minhas trajetórias...
                         </article>
-                        <input type="button" class="btn" value="Continue Lendo">
+                        <input type="button" class="btn" value="Continue Lendo" data-toggle="modal" data-target="#exampleModal3">
+                        <!-- Modal -->
+                        <div class="modal fade col-sm-12" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel3">Escolha uma Conquista</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                                        <select class="form-control" id="opt-conquista" onchange="choiseConquistas()">
+                                            <option value="Escolha">Escolha</option>
+                                            <option value="Certificados" >Certificados</option>
+                                            <option value="Faculdade" >Facudade</option>
+                                            <option value="Amizades">Amizades</option>
+                                            <option value="Familia">Familia</option>
+                                        </select>
+                                </div>
+                                <div class="modal-body">
+                                        <p id="demo">Minhas conquistas, tanto pessoal como profissional. São aquelas que eu agradeço todo dia por telas comigo.</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                 </div>
-                <form class="col-sm-12" id="form-send-work">
+                <form class="col-sm-12" id="form-send-work" action="formulario.php" method="POST">
                    <div class="form-group">
-                        <select class="form-control">
-                            <option value="" >TIPO DO SERVIÇO</option>
-                            <option value="" >DESIGN WEB</option>
-                            <option value="">DESIGN DE LOGO</option>
-                            <option value="">CRIAÇÃO DE BANNER</option>
-                            <option value="">CRIAÇÃO DE POST</option>
-                            <option value="">SISTEMA DE GERENCIAMENTO</option>
-                            <option value="">MARKETING DIGITAL</option>
-                            <option value="">MODELAGEM DE BDA</option>
-                            <option value="">LEVANTAMENTO DE REQUISITOS</option>
+                        <select class="form-control" name="opt">
+                            <option value="0" >TIPO DO SERVIÇO</option>
+                            <option value="1" >DESIGN WEB</option>
+                            <option value="2">DESIGN DE LOGO</option>
+                            <option value="3">CRIAÇÃO DE BANNER</option>
+                            <option value="4">CRIAÇÃO DE POST</option>
+                            <option value="5">SISTEMA DE GERENCIAMENTO</option>
+                            <option value="6">MARKETING DIGITAL</option>
+                            <option value="7">MODELAGEM DE BDA</option>
+                            <option value="8">LEVANTAMENTO DE REQUISITOS</option>
                         </select>
                    </div>
                    <div class="form-group">
-                        <label for="nome">Nome*</label>
-                        <input type="text" id="nome" class="form-control" placeholder="Escreva seu nome"/>
+                        <label for="nome" >Nome*</label>
+                        <input type="text" id="nome"name="nome" class="form-control" placeholder="Escreva seu nome"/>
                         <label for="email">E-mail*</label>
-                        <input type="text" id="email" class="form-control" placeholder="Escreva seu email"/>
+                        <input type="text" id="email"name="email" class="form-control" placeholder="Escreva seu email"/>
                         <label for="telefone">Telefone*</label>
-                        <input type="text" id="telefone" class="form-control" placeholder="Ex: (xx)xxxxx-xxxx">
+                        <input type="text" id="telefone" name="telefone" class="form-control" placeholder="Ex: (xx)xxxxx-xxxx">
                         <label for="descricao">Descrição*</label>
-                        <textarea class="form-control" id="descricao" placeholder="Descreva o seu pedido com detalhes"rows="3"></textarea>
+                        <textarea class="form-control"name="descricao" id="descricao" placeholder="Descreva o seu pedido com detalhes"rows="3"></textarea>
                     </div>
                        <div class="col-sm-12 col-md-12 col-lg12 cont-btn">
-                            <input type="button" class="btn col-sm-6 col-md-6 col-lg-6" value="Enviar">
+                            <input type="submit" class="btn col-sm-6 col-md-6 col-lg-6" value="Enviar">
                             <input type="reset" class="btn col-sm-6 col-md-6 col-lg-6" id="btn-reset" value="Limpar">
                        </div>
                 </form>
                 
             </main>
+
             <footer class="col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
                     
-                    <div id="redSocialBottom">
-                        <p>Entre em contato</p>
-                        <a href="https://github.com/otaviogui" target="_blank"><img src="https://png.icons8.com/wired/50/000000/github.png"></a>
-                        <a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/ios/50/000000/linkedin-circled.png"/></a>
-                        <a  href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/facebook-circled.png"/></a>                        <a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/google-plus-circled.png"/></a>
-                        <a href="https://api.whatsapp.com/send?phone=5516981315234&text=" target="_blank"><img src="https://png.icons8.com/ios/50/000000/whatsapp.png"/></a>
-                    </div>
-               
-                </footer>
+                <div id="redSocialBottom">
+                    <p>Entre em contato</p>
+                    <a href="https://github.com/otaviogui" target="_blank"><img src="https://png.icons8.com/wired/50/000000/github.png"></a>
+                    <a href="https://www.linkedin.com/in/otavioguilherme" target="_blank"><img src="https://png.icons8.com/ios/50/000000/linkedin-circled.png"></a>
+                    <a href="https://www.facebook.com/otavioguilherme.557" alt="Adicione no facebook e entre em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/facebook-circled.png"></a>                        <a href="taviogui@gmail.com" alt="Envie um E-mail para entrar em contato" target="_blank"><img src="https://png.icons8.com/ios/50/000000/google-plus-circled.png"></a>
+                    <a href="https://api.whatsapp.com/send?phone=5516981315234&amp;text=" target="_blank"><img src="https://png.icons8.com/ios/50/000000/whatsapp.png"></a>
+                </div>
+           
+            </footer> 
         </div>
     </div>
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <script>
-        </script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script>
+            function choiseConquistas(){
+                let opt = document.getElementById("opt-conquista").value
+               if(opt == 'Escolha'){
+                    let titulo = document.getElementById("exampleModalLabel3").innerText='Escolha uma Conquista'
+                    var demo = document.getElementById("demo").innerHTML = "<p>Escolha uma Conquista para entender um pouco mais sobre a minha pessoa e minhas realizações pessoais.</p>"
+                }else if(opt =='Certificados'){
+                    let titulo = document.getElementById("exampleModalLabel3").innerText='Certificados'
+                    var demo = document.getElementById("demo").innerHTML = "<p>Escolha uma Conquista para entender um pouco mais sobre a minha pessoa e minhas realizações pessoais.</p>"
+                }else if(opt=='Faculdade'){
+                    let titulo = document.getElementById("exampleModalLabel3").innerText='Faculdade'
+                    var demo = document.getElementById("demo").innerHTML = "fodase"
+                }
+                else if(opt=='Familia'){
+                    let titulo = document.getElementById("exampleModalLabel3").innerText='Familia'
+                    var demo = document.getElementById("demo").innerHTML = "fodase"
+                }
+                else if(opt=='Amizades'){
+                    let titulo = document.getElementById("exampleModalLabel3").innerText='Amizade'
+                    var demo = document.getElementById("demo").innerHTML = "fodase"
+                }
+
+
+            }
+
+             function myFunction() {
+                              var x = document.getElementById("mySelect").value;
+
+                              if(x== 'Audi'){
+                              var s =document.getElementById("demo").innerHTML = "vai se fuder: " + x;
+                              var e = document.getElementById("exampleModalLabel").innerHTML =  x;
+                              }else if(x=='BMW'){
+                               var h= document.getElementById("demo").innerHTML = "eu vou te fuder: " + x;
+                              }
+                          }
+</script>
 </body>
 </html>

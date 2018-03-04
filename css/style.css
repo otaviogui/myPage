@@ -161,7 +161,6 @@ a{text-decoration: none;}
     background-color: #E1C8A7;
 }
 footer{
-    
     background: #3F4A54;
 }
 #redSocialBottom{
@@ -182,6 +181,7 @@ footer{
 #redSocialBottom img{
     margin-bottom: 20px;
 }
+
 @media (min-width: 480px)
 { 
     .imgApresentation
@@ -285,9 +285,6 @@ footer{
         font-size:1.5em;
     }
     /* pagina principal */
-    /* #form-send-work>.btn{
-        min-width:340px;
-    } */
     #redSocialBottom>p{
         font-size:1.8em;
 
@@ -330,10 +327,6 @@ footer{
         font-size:3em;
         margin-bottom: 100px;
     }
-  /*   #form-send-work>.btn{
-        min-width: 450px;
-        margin-left:7px;
-    } */
 }
 
 
@@ -366,12 +359,7 @@ footer{
     #contPrincipal h1{
         line-height: 70px;
     }
-    /* #form-send-work>.btn{
-        min-width:555px;
-    } */
 }
-
-
 
 
 .spinner {
